@@ -1,19 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.container{
+.container {
     max-width: 1064px;
     width: 100%;
     margin: 0 auto;
+}
+
+.nav_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+        a {
+            font-size: 18px;
+            color: aliceblue;
+        }
+    }
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav{
+    background: dodgerblue;
 }
